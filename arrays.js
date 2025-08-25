@@ -38,13 +38,14 @@ document.addEventListener("DOMContentLoaded", function () {
   // Check om der i catsArray er en kat som hedder "Bagheera".
   // Udskriv katten i konsollen hvis den findes og ellers "undefined".
   // console.log("Opgave 4a", ...)
-
-
+  let cat = catsArray.find(name => name === "Bagheera");
+  console.log(cat);
   // Opgave 4b
   // Check om der i catsArray er en kat som hedder "Salem".
   // Udskriv katten i konsollen hvis den findes og ellers "undefined".
   // console.log("Opgave 4b", ...)
-
+  let cat2 = catsArray.find(name => name === "Salem");
+  console.log(cat2);
 
   //     Opgave 5
   // Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
