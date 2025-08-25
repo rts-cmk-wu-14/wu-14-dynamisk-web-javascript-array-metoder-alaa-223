@@ -60,7 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // (Sådan her: BarneyMollyBaxter...)
   // Udskriv strengen konsollen:
   // console.log("Opgave 6", ...)
-
+  let allDogs = dogsArray.join(",")
+  console.log(allDogs)
 
   //     Opgave 7a
   // Find ud af hvilket index "Mango" har i fruitsArray.
