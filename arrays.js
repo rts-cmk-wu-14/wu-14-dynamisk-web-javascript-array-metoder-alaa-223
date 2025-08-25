@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Check om der i catsArray er en kat som hedder "Salem".
   // Udskriv katten i konsollen hvis den findes og ellers "undefined".
   // console.log("Opgave 4b", ...)
-  let cat2 = catsArray.find(name => name === "Salem");
+  let cat2 = catsArray.find((name) => name === "Salem");
   console.log(cat2);
 
   //     Opgave 5
@@ -52,6 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Udskriv det nye array i konsollen:
   // console.log("Opgave 5", ...)
 
+  let numbersTimesThree = numbersArray.map((number) => number * 3);
+  console.log("Opgave 5", numbersTimesThree);
 
   //     Opgave 6
   // Udskriv alle hundene i dogsArray i én lang streng.
